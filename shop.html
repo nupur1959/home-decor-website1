@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Shop - Decorify</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar">
+  <div class="logo">Decorify</div>
+  <ul class="nav-links">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="shop.html">Shop</a></li>
+    <li><a href="blog.html">Blog</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="contact.html">Contact</a></li>
+  </ul>
+</nav>
+
+<!-- FILTER -->
+<section class="filter-section">
+  <h2>Our Collection</h2>
+  <div class="filters">
+    <button onclick="filterItems('all')">All</button>
+    <button onclick="filterItems('lamp')">Lamps</button>
+    <button onclick="filterItems('decor')">Decor</button>
+    <button onclick="filterItems('wall')">Wall Art</button>
+  </div>
+</section>
+
+<!-- PRODUCTS -->
+<section class="products">
+  <div class="product-grid" id="shop-items"></div>
+</section>
+
+<footer>
+  <p>© 2026 Decorify</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
